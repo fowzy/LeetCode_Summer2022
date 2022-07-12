@@ -1,0 +1,17 @@
+# Pseudocode
+stack data structure: last in first out
+so if we have this string (] which it should return FALSE
+we basically need to do things:
+    - push when we open a parenthesis 
+    - pop when we have closing parenthesis
+but we will have a little problem which is going to be the type of parenthesis explain:
+    if we have three types of parenthesis
+    ()
+    []
+    {}
+    and we have type 1. ( open and push into our stack
+    we want to make sure we pop when we get closing tag of the same type 1. )
+    but if we have closing parenthesis from type 2 we need to ] check
+        check if the parenthesis type 2 is in the stack
+        if not return is false
+        
